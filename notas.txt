@@ -1,2 +1,51 @@
 Bienvenida al curso
 
+
+LLevar tus cosas a producción
+	
+	Significa tomas tu solución y construirle un sistema de ingenieria de modo que podamos ir a dormir y concentrarnos
+	en otros problemas.
+
+	Equivale a decir: construir sistemas de ingenieria alrededor de soluciones matematicas
+
+	* dashboard: Panel de control
+
+
+Bases de datos: SQL y NoSQl
+
+	SQL: SQLite, MySQL, PostgreSQL, RedShift
+	NoSQL: MongoDB, Redis, Giraph, Neo4j
+
+
+ETL
+
+	Extraer, Transformar y Cargar
+
+	Luego de llevar las cosas a producción se interactua frecuentemente con ETL: Proceso de mover datos del punto A, 
+	transformarlos (que podria ser: limpiarlos, realizar calculos, quitar cosas que no se necesitan, agrega otras que si) y 
+	luego almacenarlos o persistirlos.
+
+	La construcción de procesos ETL son básicos para un data science, ya que de esta forma se aseguran que los datos que estan 
+	analizando no contienen errores y estan 'limpios' para el analisis.
+
+		'si entra basura sale basura'
+
+	ETL Frameworks:
+		>> AWS Pipeline -- Amazon Web Services
+		>> Luigi -- Spotify
+		>> Airflow -- Airbnb
+		>> Pinball -- Pinrest
+
+
+	Cosas a tener en cuenta al elegir en framework ETL:
+		1. Tener en cuenta los datos con los que vamos a interactuar.
+		2. Tener en cuenta el lenguaje que usa cada framework (python, json), ya que es más comodo construir las soluciones utilizando
+			el mismo lenguaje que usa el framework.
+		3. Tener en cuenta la comunidad. Entre más grande mejor.
+
+
+*************
+
+¿BLOB de json?
+
+*************
