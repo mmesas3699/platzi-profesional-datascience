@@ -49,3 +49,18 @@ ETL
 ¿BLOB de json?
 
 *************
+
+
+Mostrar tus datos mediante dashboards
+
+	Son una capa visual encima de los resultados.
+
+	Razones para usar dashboards:
+		1. BI interna
+		2. Mostrar las cosas bonitas, una imagen habla más que mil palabras. - Reducir el tiempo de carga cognitiva.
+
+	** Looker dashboard: Es una capa de visualización encima de una base de datos PostgreSQL. Permite:
+		* Visualizar nuestro datos.
+		
+
+
