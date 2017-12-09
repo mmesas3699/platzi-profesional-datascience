@@ -63,4 +63,13 @@ Mostrar tus datos mediante dashboards
 		* Visualizar nuestro datos.
 		
 
+Repaso por Jupyter Notebook:
 
+	Instalar Jupyter:
+		>> pip install jupyter
+
+
+	Abrir el notebook:
+		>> jupyter notebook
+
+		
