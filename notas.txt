@@ -72,4 +72,11 @@ Repaso por Jupyter Notebook:
 	Abrir el notebook:
 		>> jupyter notebook
 
-		
+
+Ejemplo de inferencia en twitter para producción
+	
+	Los problemas que los datascience resuelven deben empezar con una pregunta. No con datos ni modelos matematicos
+
+
+	Link para crear bounding box: http://boundingbox.klokantech.com/
+
