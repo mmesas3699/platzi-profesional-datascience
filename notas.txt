@@ -80,3 +80,41 @@ Ejemplo de inferencia en twitter para producción
 
 	Link para crear bounding box: http://boundingbox.klokantech.com/
 
+
+Creando nuestro modelo matemático
+
+	Distribución beta: Es una distribución de probabilidad canonica usada para mostrar incetidumbre alrededor
+		de cada posible probabilidad. Probabilidad siendo un número entre 0 y 1.
+
+		Toma dos parametros: Alpha y Beta 	
+
+
+Un poco de contexto sobre machine learning
+
+	Lo más importante que se debe entender de machine learning es que debemos formular los problemas de una 
+	forma que pueda ser pasada a los modelos de machine learning para interpretar, y que la formulación de
+	problemas es realmente la habilidad en la ciencia de datos que toma mayor tiempo para perfeccionar y
+	desarrollar.
+
+	Sin importar los fines los modelos de machine learning se crean para dos fines:
+
+		1. Incestigación y desarrollo: el proceso de comprender como diferentes entradas en el sistema varian
+		con respecto a la salida que interesa.
+
+		2. Predicción
+
+	Modelos de machine learning vs Modelos estadisticos tradicionales:  un modelo estadístico se efectúa tomando en cuenta un comportamiento previo, en el caso de un modelo de machine learning podemos llegar sin nada, aunque la respuesta puede ser menos acertada, es por eso que hablamos en esta parte de investigación y de predicción.
+
+	Por que machine learning es tan famoso ahora:
+		1. Por la cantidad de datos que se estan generando.
+		2. Por que tenemos el poder para procesarlos.
+
+	- Construir un modelo: Cuanto mejor entendamos nuestro problema, mejor sera nuestro modelo.
+	- Llevar las cosas a producción: Cuanto mejore comprendemos el modelo que generamos mejore sera el sistema
+		de ingenieria que se construira para enviarlo a producción.
+
+
+Entrenando un modelo de machine learning
+
+	
+
