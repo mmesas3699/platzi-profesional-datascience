@@ -78,5 +78,84 @@ Ejemplo de inferencia en twitter para producción
 	Los problemas que los datascience resuelven deben empezar con una pregunta. No con datos ni modelos matematicos
 
 
-	Link para crear bounding box: http://boundingbox.klokantech.com/
+	Link para crear bounding box: http://boundingbox.klokantech.com/  // Caja de donde puedo seleccionar unos punto 
+	en un mapa y automaticamente me genera las coordenadas.
 
+
+Creando nuestro modelo matematico
+
+	¿¿¿¿ Que es una distribución beta ????
+
+	** Segun el curso es una función que toma dos parametros, el primero es alpha y el segundo beta
+
+
+Automatización
+
+	Welcome to Bokeh
+	Bokeh is a Python interactive visualization library that targets modern web browsers for presentation. 
+	Its goal is to provide elegant, concise construction of novel graphics in the style of D3.js, 
+	and to extend this capability with high-performance interactivity over very large or streaming datasets.
+	Bokeh can help anyone who would like to quickly and easily create interactive plots, dashboards, and 
+	data applications.
+
+	** Para trabajar con bokeh 
+		$ bokeh serve 	# dentro de un venv
+
+
+*/=====================/*
+
+EN pydata.org
+HAY MUCHAS LIBRERIAS DE PYTHON PARA ANALISIS DE DATOS
+
+	** Variables de entorno
+
+		$ env 	# para ver las variable de mi sistema
+		$ env | grep 'nombre la variable'		# para buscar una variable en particular
+		$ export nombre de la variable = 'valor de la variable' 	# el nombre es sin "" pero el valor si
+
+		*** Es posible personalizar mi entorno virtual para que cada vez que inicie el entorno automaticamente
+			sucedan cosas:
+
+			En venv/bin/activate:
+
+			en la funcion deactivate {
+				unset MI_VARIABLE
+			}
+
+			Y al final del archivo
+
+			export MI_VARIABLE='valor'
+
+		Para acceder a ellas desde python 
+
+			import os
+
+			variable = os.getenv('MI_VARIABLE')
+
+
+Llevar tus cosas a produccion
+
+	No tienes que hacerlo todo como data scientist, pero si lo suficiente para guiar a tu equipo de ingeniería a 
+	llevar a cabo esto. Y esto es lo que significa “llevar tus cosas a producción”, construir un sistema de 
+	ingeniería a partir de tu solución de data science.
+
+
+Un poco de contexto sobre machine learning
+
+	** Lo más importante sobre machine learning: Es que lo problemas debe ser formulados de tal forma que puedan ser 
+		pasados a los modelos de machine learning. Y que en data science la formulación de problemas es la habilidad
+		que más tiempo lleva desarrollar.
+
+	** Tipos de modelos de machine learning:
+		- Modelos de regresión
+		- Modelos de clasificación
+		- Algoritmos de agrupamiento
+		- Modelos de reducción de dimensionalidad
+
+	** Sin importar el tipo, los modelos se crean por dos razones:
+		- I+D (investigación y desarrollo): El proceso de comprender como las entradas de datos que ingresan a mi 
+			sistema varian deacuerdo al resultado que espero.
+		- Predicción
+
+	Modelos de machine learning vs Modelos estadisticos normales
+	
