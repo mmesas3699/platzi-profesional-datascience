@@ -82,6 +82,7 @@ Ejemplo de inferencia en twitter para producción
 	en un mapa y automaticamente me genera las coordenadas.
 
 
+
 Creando nuestro modelo matematico
 
 	¿¿¿¿ Que es una distribución beta ????
@@ -157,5 +158,17 @@ Un poco de contexto sobre machine learning
 			sistema varian deacuerdo al resultado que espero.
 		- Predicción
 
-	Modelos de machine learning vs Modelos estadisticos normales
+
+	Modelos de machine learning vs Modelos estadisticos tradicionales:
+	  un modelo estadístico se efectúa tomando en cuenta un comportamiento previo, en el caso de un modelo de 
+	  machine learning podemos llegar sin nada, aunque la respuesta puede ser menos acertada, es por eso que 
+	  hablamos en esta parte de investigación y de predicción.
+
+	Por que machine learning es tan famoso ahora:
+		1. Por la cantidad de datos que se estan generando.
+		2. Por que tenemos el poder para procesarlos.
+
+	- Construir un modelo: Cuanto mejor entendamos nuestro problema, mejor sera nuestro modelo.
+	- Llevar las cosas a producción: Cuanto mejore comprendemos el modelo que generamos mejore sera el sistema
+		de ingenieria que se construira para enviarlo a producción.
 	
