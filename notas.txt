@@ -171,4 +171,38 @@ Un poco de contexto sobre machine learning
 	- Construir un modelo: Cuanto mejor entendamos nuestro problema, mejor sera nuestro modelo.
 	- Llevar las cosas a producción: Cuanto mejore comprendemos el modelo que generamos mejore sera el sistema
 		de ingenieria que se construira para enviarlo a producción.
-	
+
+Entrenando un modelo de machine learning
+
+	El proceso de usar modelos de machine learning, el proceso de enseñarles a entender patrones de datos
+	esta destinado a imitar el proceso de como los humanos entendemos y procesamos los datos.
+
+	** Diferencias entre un ser humano y un modelo de machine learning:
+		1. La cantidad de datos que el modelo puede recibir.
+		2. La velocidad a la que el modelo puede consumir esos datos.
+
+	- Hay dos tipos de modelos de machine learning: 
+		* Supervisados: Ejemplo: Cuando de pequeños nos dicen que algo es una manzana y desde hay sabemos
+		que ese algo en una manzana cada vez que lo vemos.
+
+		* No Supervisados: (Algoritmos de agrupamiento: algoritmo de reducción de dimensionalidad): Es 
+		aprender sin que un agente externo nos enseñe, como cuando nos caemos de niños y a partir de hay
+		sabemos que eso causa dolor.
+
+
+Modelos de regresión, clasificación, clustering y reducción de dimensionalidad
+
+	** Modelos de regresión (Supervisados): son modelos que predicen valores continuos apartir de unos
+	datos dados inicialmente.
+		- Tipos de modelos de regresión:
+
+	** Modelos de clasificación (supervisado): Los modelos de clasificación predicen una etiqueta. esta 
+	puede ser binaria:
+		- Quien ganara las elecciones de EU Hilary o Trump?.
+
+	** Algoritmos de agrupamiento (clustering, No supervisado): Sirven para agrupar la informacion con el fin
+	de tener una visión inicial de nuestros datos mas ordenada.
+
+	** Algoritmos de reduccion de dimensionalidad: Su meta es reducir un conjunto de vectores desde una
+	cierta alta dimensionalidad hasta una baja dimensionalidad,  
+
